@@ -1,0 +1,51 @@
+body , html{
+    height: 100%;
+    margin: 0;
+
+}
+
+.back{
+    background-image: url("background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.buttons{
+    font-family: 'FF Dusha Arabic';
+    margin-right: 50px;
+  }
+.one{
+  margin-right: 20px;
+}
+.logo{
+  margin-left: 20px;
+}
+
+.text1{
+    color: white;
+    font-size:80px;
+    font-family: 'FF Dusha Arabic';
+}
+.text2{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 200px;
+    font-family: 'FF Dusha Arabic';
+}
+  .waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    animation: flip 5s infinite;
+    animation-delay: calc(.5s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
