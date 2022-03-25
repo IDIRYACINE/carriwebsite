@@ -16,6 +16,10 @@ body , html{
     font-family: 'FF Dusha Arabic';
     margin-right: 50px;
   }
+.catbutton{
+  margin-bottom: 30px;
+  font-family: 'FF Dusha Arabic'
+}
 .one{
   margin-right: 20px;
 }
