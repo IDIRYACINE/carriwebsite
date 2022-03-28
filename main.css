@@ -29,6 +29,7 @@ body , html{
 
 .text1{
     color: white;
+    margin-top: 250px;
     font-size:80px;
     font-family: 'FF Dusha Arabic';
 }
@@ -53,3 +54,15 @@ body , html{
       transform: rotateY(360deg) 
     }
   }
+
+.truck{
+  margin-top: 250px;
+  margin-right: 150px;
+}
+.byckle{
+  margin-top: 250px;
+  margin-left: 150px;
+}
+.car{
+  margin-top: 250px;
+}
