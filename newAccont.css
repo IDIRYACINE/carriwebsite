@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'FF Dusha Arabic' ;
+}
+.body , html{
+    
+    background-image: url(background.jpg);
+    background-size: cover;
+    padding-left: 150px ;
+    padding-right: 150px ;
+    padding-bottom: 150px ;
+    margin: 150;
+    height: 100%;
+   
+}
+.conatainer{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(75, 74, 74);
+    margin: 50px auto;
+    direction: rtl;
+    background-image:url(dj.jpg);
+    background-position:center;
+    background-size:cover;
+    width: 380px;
+}
+.text{
+    display:flex;
+    color: aliceblue;
+    margin: 30px;
+    font-size: 45px;
+    font-family: 'FF Dusha Arabic';
+}
+.user{
+    color: aliceblue;
+    margin-right: 10px;
+    font-family: 'FF Dusha Arabic';
+    font-size: 20px;
+}
+.em{
+    color: aliceblue;
+    margin-right: 10px;
+    font-family: 'FF Dusha Arabic';
+    font-size: 20px;
+}
+.pas{
+    
+    color: aliceblue;
+    margin-right: 10px;
+    font-family: 'FF Dusha Arabic';
+    font-size: 20px;
+}
+.sub{
+    margin: 50px;
+    padding: 10px;
+}
+#sbmt{
+
+    display: flex;
+    background: none;
+    color:  aliceblue;
+    margin: 40px 30px 10px 0px;
+    padding: 5px 8px ;
+    font-family: 'FF Dusha Arabic';
+    font-size: 20px;
+}
+#signIn{
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    font-family: 'FF Dusha Arabic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background: none;
+}
+
+#userName{
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    font-family: 'FF Dusha Arabic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background: none;
+}
+#pass{   
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    font-family: 'FF Dusha Arabic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background: none;
+}
+
+
+
