@@ -28,7 +28,7 @@ export default function NewAccount(){
     
     return(
        
-    <div class="contentBody">  
+    <div class="conatainer">  
         <form action="">
             <span class="text">انشاءحساب</span>
 

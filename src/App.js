@@ -1,9 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import NewAccount from './Account/newAccount';
 import SecondPage from './SecondPage/secondPage';
-import SignUp from './SignUp/signUp';
+import Login from './Login/login';
 import LandingPage from './LandingPage/landingPage';
 import NavBar from './Components/NavBar/NavBar';
+import './App.css'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <div className="back">
       <Routes>
       <Route path="/" element={<LandingPage></LandingPage>}></Route>
-      <Route path="/SignUp" element={<SignUp></SignUp>}></Route>
+      <Route path="/Login" element={<Login></Login>}></Route>
       <Route path="/SecondPage" element={<SecondPage></SecondPage>}></Route>
       <Route path ="/NewAccount" element={<NewAccount></NewAccount>}></Route>
 

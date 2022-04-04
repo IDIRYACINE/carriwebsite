@@ -1,8 +1,8 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom'
-import './signUp.css';
+import './login.css';
 
-export default function SignUp(){
+export default function Login(){
     const navigate = useNavigate()
     
     //replace :true to update the browser history , user can't go back

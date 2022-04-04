@@ -13,7 +13,7 @@ export default function NavBar(){
     }
 
     function onSucess(){
-        navigate('/SecondPage')
+        navigate('/Login')
     }
 
     function onFail(){

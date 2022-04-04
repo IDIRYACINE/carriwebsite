@@ -6,9 +6,6 @@ export default function LandingPage(){
     return (
         <div className="back">
 
-
-
-
     <div className=" text1 waviy text-center ">
         <span  >الموقع الجزائري الاول من نوعه</span>
     </div>
