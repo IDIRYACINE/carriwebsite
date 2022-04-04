@@ -12,7 +12,7 @@ export default function SignUp(){
     }
 
     return (
-        <div className="conatainer">  
+        <div className="conatainer" >  
     <form action="">
     <div>
 

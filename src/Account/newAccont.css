@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family:'FF Dusha Arabic' ;
 }
-.body , html{
+.contentBody{
     
     background-image: url(../Ressources/background.jpg);
     background-size: cover;

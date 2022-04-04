@@ -28,7 +28,7 @@ export default function NewAccount(){
     
     return(
        
-    <div class="conatainer">  
+    <div class="contentBody">  
         <form action="">
             <span class="text">انشاءحساب</span>
 
@@ -53,11 +53,10 @@ export default function NewAccount(){
     
        <div>
              <span class="sub" for="sbmt"></span>
-             <button onClick={()=>{createNewAccount(account,onAccountCreated,onAccountCreationFailed)}} id="sbmt" type="submit" value="انشاء" />
+             <button onClick={()=>{createNewAccount(account,onAccountCreated,onAccountCreationFailed)}} id="sbmt" type="submit" >انشاء</button>
        </div>
        </form>
-       
-    
+
     </div>
     
     )

@@ -1,4 +1,3 @@
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import NewAccount from './Account/newAccount';
 import SecondPage from './SecondPage/secondPage';
@@ -13,7 +12,7 @@ function App() {
         <NavBar></NavBar>
       </header>
 
-      
+      <div className="back">
       <Routes>
       <Route path="/" element={<LandingPage></LandingPage>}></Route>
       <Route path="/SignUp" element={<SignUp></SignUp>}></Route>
@@ -21,6 +20,7 @@ function App() {
       <Route path ="/NewAccount" element={<NewAccount></NewAccount>}></Route>
 
       </Routes>
+      </div>
 
       <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"

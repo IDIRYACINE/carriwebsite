@@ -2,6 +2,7 @@ import React from 'react';
 import {useNavigate} from 'react-router-dom'
 import { signIn } from './NavBarModule';
 import logo from '../../Ressources/logo.png';
+import './NavBar.css'
 
 export default function NavBar(){
     const navigate = useNavigate()
@@ -20,7 +21,7 @@ export default function NavBar(){
     }
     
     return (
-<div className="top">
+<div className="back">
 
 <nav className="navbar navbar-light  " >
     <a className="navbar-brand"  href="/">
