@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/carriwebsite/static/css/main.d943853d.css",
+    "main.js": "/carriwebsite/static/js/main.76bc7c67.js",
+    "static/media/background.jpg": "/carriwebsite/static/media/background.8a630f63979d34442948.jpg",
+    "static/media/byckle-01.png": "/carriwebsite/static/media/byckle-01.9d1fb34d7ddb9a3b3d35.png",
+    "static/media/carrr-01.png": "/carriwebsite/static/media/carrr-01.492e11630660fec4d4c6.png",
+    "static/media/truck-01.png": "/carriwebsite/static/media/truck-01.c01ffab1b1eaaa9fd41d.png",
+    "static/media/logo.png": "/carriwebsite/static/media/logo.6659a89c20fdb30e55f5.png",
+    "static/media/dj.jpg": "/carriwebsite/static/media/dj.325bd9497aa5298719eb.jpg",
+    "index.html": "/carriwebsite/index.html",
+    "main.d943853d.css.map": "/carriwebsite/static/css/main.d943853d.css.map",
+    "main.76bc7c67.js.map": "/carriwebsite/static/js/main.76bc7c67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d943853d.css",
+    "static/js/main.76bc7c67.js"
+  ]
+}
